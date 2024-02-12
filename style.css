@@ -1,26 +1,42 @@
 body {
-    color: white;
-    background-image: url("images/univers.jpg");
-    background-size: cover;
+    color: #949AB8;
     text-align: center;
     font-size: 34px;
     font-family: 'Space Mono', monospace;
+    margin: 0;
 }
-
-
 
 .btn {
     margin: 10px 10px;
     padding: 10px 21px;
-    background: white;
+    background: #647D9E;
     border: 1px solid grey;
     border-radius: 5px;
     cursor: pointer;
     font-size: 21px;
     font-family: inherit;
+    font-weight: 500;
 }
 
 .btn:hover {
-    background-color: rgba(193, 174, 174, 0.5);
-    transition: 0.5s ease-in-out
+    background-color: #9F888B;
+    transition: 0.5s ease-in-out;
+}
+
+#title {
+    text-shadow: 4px -5px 2px black;
+}
+
+#hero {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+
+.underline {
+    border-bottom: 6px solid #9F888B;
+}
+
+#main-logo {
+    width: 200px;
 }
